@@ -17,7 +17,7 @@ class IgGetter:
     async def addTargets(self, targets):
         self.targets = self.targets.union(set(targets))
         await self.__getTargetsUserId()
-        return self.targets
+        return self.targetsdsdsd
 
     async def removeTargets(self, targets):
         self.targets = self.targets.difference(targets)
